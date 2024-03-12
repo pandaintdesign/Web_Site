@@ -1,0 +1,40 @@
+<!--@layout(/layout/basic/main.html)-->
+<!--@css(/nd/css/timer.css)-->
+<!--@js(/nd/js/timer.js)-->
+<!--@css(/dim_viral_popup.css)-->
+<!--------------------------------------------------------------------------------------------------------------
+
+※ 아래 "반복시작 ~ 반복끝" 소스 구조를 복사하여 배너의 개수를 늘릴 수 있습니다.
+
+---------------------------------------------------------------------------------------------------------------->
+<!--@js(/nd/js/timer.js)-->
+<style type="text/css"></style>
+<div id="daysTimer" class="daysTimer">
+    <div id="timeWrap" class="timer-wrap">
+         <div class="timerText">
+                    <p id="title">사전예약 남은 시간</p>
+                 <p id="clock" class="clock"></p>
+                 <button type="button" class="alramBtn tabBtn" onclick="location.href='https://app.smartsheet.com/b/form/91976bb53be4410e950ec1ba97c2f891'">예약 알림 받기</button> 
+                 <button type="button" class="snsViral tabBtn">공유하기</button> 
+        </div>
+    </div>
+    <a id="timerCloser" class="timerCloser">알림창 닫기</a>
+ </div>
+
+<div id="viral_container">
+ <div id="viral_wrap">
+     <div id="share_container" class="shareBox">
+             <h2>THE CLUR 공유하기</h2>
+                 <h3>더클러의 소식을 공유해보세요.</h3>
+                 <div id="snsShare" class="snsBtn-wrap">
+                     <button id="share ka" class="shareBtn ka" onclick="location.href='https://app.smartsheet.com/b/form/91976bb53be4410e950ec1ba97c2f891'">카카오 공유하기</button>
+                     <button id="share me" class="shareBtn me" onclick="location.href='https://app.smartsheet.com/b/form/91976bb53be4410e950ec1ba97c2f891'">SMS 공유하기</button>    
+                 </div>
+                 <button id="linkBtn" class="copyLink">
+                     눌러서 url 복사하기
+                 </button>	
+     </div>
+     <a id="shareCloser" class="shareCloser">닫기</a>
+ </div>
+</div>
+  
